@@ -13,7 +13,9 @@ app = Flask(__name__)
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_path', type=str, default = '/home/n7student/Bureau/cours/2A MODIA/S2/Infra IA/TP/TP01/AIF/developpement/MNIST/mnist_net.pth', help='PATH to model')
+parser.add_argument('--model_path', type=str, default = 
+                    '/home/n7student/Bureau/cours/2A MODIA/S2/Infra IA/TP/TP01/AIF/developpement/MNIST/mnist_net.pth'
+                    , help='PATH to model')
 args = parser.parse_args()
 model_path = args.model_path
 

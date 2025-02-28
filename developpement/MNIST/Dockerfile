@@ -17,4 +17,4 @@ EXPOSE 5000
 ENV FLASK_ENV=production
 
 # Run mnist_api.py when the container launches
-CMD ["python", "mnist_api.py", "--model_path", "weights/mnist_net.pth"]
+CMD ["python", "mnist_api.py", "--model_path", "mnist_net.pth"]
